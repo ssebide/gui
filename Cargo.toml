@@ -1,0 +1,11 @@
+[package]
+name = "gui"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gio = "0.6.0" # the underlying GLib bindings
+
+[dependencies.gtk]
+version = "0.6.0"    # the gtk crate version
+features = ["v3_22"] # system gtk version
